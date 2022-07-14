@@ -10,7 +10,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
+
 
 .nav-left {
   display: flex;
@@ -19,6 +21,8 @@
 .nav-left span {
   font-size: 35px;
   padding-top: 10px;
+ 
+
 }
 
 .nav-left ul {
@@ -46,13 +50,14 @@
   font-weight: bolder;
 }
 
+
 /* content */
 .content {
   font-family: "Baloo Bhaina 2", cursive;
   /* font-size: 18px; */
   font-size: 1.3rem;
   height: 100%;
-
+  overflow: hidden;
   margin-top: 32px;
   padding: 9px;
   position: relative;
@@ -64,7 +69,7 @@
 
 .content::after {
   content: "";
-
+  overflow: hidden;
   position: absolute;
   width: 100%;
   height: inherit;
@@ -74,7 +79,7 @@
 
 
 .content-left {
-
+  overflow: hidden;
   width: 65vw;
   /* background-color: pink; */
 
@@ -83,7 +88,8 @@
 .content-left h1 {
   color: rgb(74, 19, 126);
   margin-bottom: 25px;
-  font-size: 45px;
+  font-size: 45px; 
+  
 
 
 }
@@ -91,6 +97,7 @@
 .content-left strong {
   /* font-weight: 700;
   line-height: inherit; */
+ 
   color: black;
   font-size: 25px;
   margin-top: 30px;
@@ -107,6 +114,7 @@
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
   text-rendering: optimizeLegibility;
+ 
 }
 
 .para1 {
@@ -117,6 +125,7 @@
   line-height: 1.5rem;
   margin-bottom: 1.5rem;
   text-rendering: optimizeLegibility;
+ 
 }
 
 
@@ -126,7 +135,7 @@
   /* background-color: skyblue; */
   /* display: grid; */
   justify-content: flex;
-
+  
   padding-left: 35px;
 
 }
@@ -146,11 +155,11 @@
 .content-right img {
 
   margin-top: 0px;
-  height: 90px;
-  border: 2px solid rgb(9, 9, 10);
-  border-radius: 33px;
+  height: 95px;
+  /* border: 2px solid rgb(7, 7, 164);
+  border-radius: 5px; */
 
-}
+} 
 
 /* content right */
 
