@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar start */
+.navigation {
+  margin-top: 25px;
+  font-family: var(--font1);
+  /* height: 74px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-left {
+  display: flex;
+}
+
+.nav-left span {
+  font-size: 35px;
+  padding-top: 10px;
+}
+
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  margin: 0 77px;
+  font-size: 22px;
+  padding-bottom: 23px;
+}
+
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: var(--font2);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li a:hover {
+  color: var(--main-bg-color);
+  font-weight: bolder;
+}
+
+/* content */
+.content {
+  font-family: "Baloo Bhaina 2", cursive;
+  /* font-size: 18px; */
+  font-size: 1.3rem;
+  height: 100%;
+
+  margin-top: 32px;
+  padding: 9px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 100;
+  user-select: text !important;
+}
+
+.content::after {
+  content: "";
+
+  position: absolute;
+  width: 100%;
+  height: inherit;
+
+
+}
+
+
+.content-left {
+
+  width: 65vw;
+  /* background-color: pink; */
+
+}
+
+.content-left h1 {
+  color: rgb(74, 19, 126);
+  margin-bottom: 25px;
+  font-size: 45px;
+
+
+}
+
+.content-left strong {
+  /* font-weight: 700;
+  line-height: inherit; */
+  color: black;
+  font-size: 25px;
+  margin-top: 30px;
+  font-weight: 700;
+  line-height: inherit;
+}
+
+.content-left p {
+  margin-top: 22px;
+  font: icon;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-rendering: optimizeLegibility;
+}
+
+.para1 {
+  
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-rendering: optimizeLegibility;
+}
+
+
+
+.content-right {
+  width: 45%;
+  /* background-color: skyblue; */
+  /* display: grid; */
+  justify-content: flex;
+
+  padding-left: 35px;
+
+}
+
+.content-right ul {
+  margin-top: 5px;
+  list-style: none;
+  margin-top: 0px;
+  font-size: 18px;
+
+}
+.content-right ul li{
+
+  padding-left: 12px;
+}
+
+.content-right img {
+
+  margin-top: 0px;
+  height: 90px;
+  border: 2px solid rgb(9, 9, 10);
+  border-radius: 33px;
+
+}
+
+/* content right */
+
+.content-right advisor img {
+
+  float: left;
+  width: 30%;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid blue;
+
+}
+
+.advisor h1 {
+
+  color: blue;
+  margin-top: 25px;
+  font-style: oblique;
+
+}
+
+.advisor p {
+  font-style: var(--font1);
+
+}
+
+.Latest-Events h1 {
+  margin-top: 25px;
+  color: blue;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.event {
+  margin-top: 25px;
+  color: blue;
+  font-size: 18px;
+  font-style: oblique;
+
+}
+
+.join h1 {
+  font-style: oblique;
+  margin-top: 25px;
+  color: blue;
+  font-size: 20px;
+}
+
+.join p {
+  margin-top: 25px;
+}
+
+
+/* footer section */
+
+.footer {
+  background: #f0fdfa;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+
+
+}
+
+.footer .box-container .box {
+  /* background-color: #0eb582; */
+}
+
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  text-transform: capitalize;
+  color: #444;
+  padding: 1rem;
+}
+
+.footer .box-container .box .link {
+
+  width: 40vw;
+  font-size: 1.7rem;
+  line-height: 2;
+  color: #777;
+  padding: 1rem;
+  /* padding: .5rem 0; */
+  display: block;
+}
+
+.footer .box-container .box .link:hover {
+  color: #0eb582;
+  text-decoration: underline;
+}
+
+.footer-left {
+  width: 100%;
+  display: flex;
+  justify-content: flex;
+
+}
+.pciu{
+  width: 30vw;
+  /* background-color: #444; */
+}
+.pciu img{
+  height: 25vh;
+  
+}
+.footer-middle-col {
+  /* background-color: aqua; */
+  /* margin-top: 3vh; */
+  width: 30vw;
+  list-style: none;
+ 
+}
+
+.home-footer-contact ul {
+  text-align: center;
+  /* padding: 12px;  */
+  box-sizing: border-box;
+  color: #273643;
+
+}
+.home-footer-contact li{
+ 
+  font-size: 1.2rem;
+  font-family: OpenSansLight;
+  list-style: none;
+  
+
+}
+.home-footer-contact img{
+  height: 3.5vh;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #444;
+  border-top: 0.1rem solid #0eb582;
+}
+
+.footer .credit span {
+  color: #0eb582;
+}
+@media(max-width:768px) {
+  html {
+    font-size: 45%;
+  }
+}
